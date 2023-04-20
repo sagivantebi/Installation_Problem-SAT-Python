@@ -94,42 +94,6 @@ def check_sat():
         print("There is no installation plan")
 
 
-
-
 solver = Solver(name="z3")
 convert_file_to_sat()
 check_sat()
-#
-# a = Symbol("a", BOOL)
-# b = Symbol("b", BOOL)
-# c = Symbol("c", BOOL)
-#
-# v = []
-# for i in range(0, 5):
-#     v += [ Symbol("x" + str(i), BOOL) ]
-#
-# solver.add_assertion(And(a, b))
-# solver.add_assertion(Not(c))
-# solver.add_assertion(Or(v))
-# r = solver.check_sat()
-# print("result: ", r)
-# print("********************************")
-# print("model values:")
-# for var in v:
-#     val = solver.get_value(var)
-#     print(var, ":", val)
-# print("********************************")
-#
-# a_val = solver.get_value(a)
-# c_val = solver.get_value(c)
-# print("a_val:", a_val)
-# print("type of a_val:", type(a_val))
-# print("********************************")
-#
-# # a_val is not a Boolean
-# print(a_val == True)
-#
-# # a_val is a pysmt object
-# print(a_val == TRUE())
-# print(a_val.is_true())
-# print(c_val.is_true())
