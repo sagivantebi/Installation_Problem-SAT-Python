@@ -1,5 +1,6 @@
 Solving the Installation Problem using a script written in Python.
-The solution derived from a reduction to a SAT problem
+
+The solution derived from a reduction to a SAT problem.
 
 
 
