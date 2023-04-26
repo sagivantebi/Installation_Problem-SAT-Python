@@ -9,7 +9,7 @@
 
 * (Package2 -> (Depends2 And Not(Conflicts2)) And
 
- ...
+   ...
  
 * (PackageN -> (DependsN And Not(ConflictsN)) And
 
