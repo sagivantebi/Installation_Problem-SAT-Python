@@ -5,15 +5,15 @@ The solution derived from a reduction to a SAT problem.
 
 Parsing Method:
 
-(Package1 -> (Depends1 And Not(Conflicts1)) And
+* (Package1 -> (Depends1 And Not(Conflicts1)) And
 
-(Package2 -> (Depends2 And Not(Conflicts2)) And
+* (Package2 -> (Depends2 And Not(Conflicts2)) And
 
- ... And
+ ...
  
-(PackageN -> (DependsN And Not(ConflictsN)) And
+* (PackageN -> (DependsN And Not(ConflictsN)) And
 
-Install
+* Install
 
 
 
